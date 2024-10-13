@@ -2,21 +2,23 @@
 
 A simple "Hello World" program in Clojure CLR
 
-### Install or Upgrade Clojure.Main
+### Install Clojure CLR
 
-See https://github.com/clojure/clojure-clr/tags for the latest version.
+    # Clojure.Main
+    dotnet tool install --global Clojure.Main --version 1.12.0-alpha10
 
-    dotnet tool install --global --version 1.12.0-alpha10 Clojure.Main
+    # Clojure.Cljr
+    dotnet tool install --global Clojure.Cljr --version 0.1.0-alpha2
 
 ### Run
 
-    CLOJURE_LOAD_PATH=src Clojure.Main -m hello.main
+    cljr -M -m hello.main
 
 ### TODO
 
 - [X] run
-- [ ] add dependencies
-- [ ] deps.edn
+- [x] add dependencies
+- [x] deps.edn
 - [ ] tests
 - [x] rename clj to cljr
 - [ ] add cljs

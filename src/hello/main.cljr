@@ -1,4 +1,5 @@
-(ns hello.main)
+(ns hello.main
+  (:require [clojure.data.json :as json]))
 
 (defn -main []
-  (println "Hello, World!"))
+  (json/pprint {"Hello" "World!"}))

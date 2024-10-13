@@ -1,0 +1,5 @@
+{:paths   ["src"]
+ :deps {
+        io.github.clojure/clr.data.json {:git/tag "v2.5.0" :git/sha "1c738a1"}
+        }
+ }
