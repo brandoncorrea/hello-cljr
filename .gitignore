@@ -2,3 +2,5 @@
 .clj-kondo/
 .vscode/
 .cpcache/
+obj/
+bin/

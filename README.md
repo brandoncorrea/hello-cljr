@@ -24,3 +24,4 @@ A simple "Hello World" program in Clojure CLR
 - [x] rename clj to cljr
 - [ ] add cljs
 - [ ] share cljc
+- [ ] add and use local .NET class
