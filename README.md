@@ -8,17 +8,18 @@ A simple "Hello World" program in Clojure CLR
     dotnet tool install --global Clojure.Main --version 1.12.0-alpha10
 
     # Clojure.Cljr
-    dotnet tool install --global Clojure.Cljr --version 0.1.0-alpha2
+    dotnet tool install --global Clojure.Cljr --version 0.1.0-alpha3
 
 ### Run
 
-    cljr -M -m hello.main
+    cljr -M:run
 
 ### TODO
 
 - [X] run
 - [x] add dependencies
 - [x] deps.edn
+- [x] aliases
 - [ ] tests
 - [x] rename clj to cljr
 - [ ] add cljs

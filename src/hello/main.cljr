@@ -1,5 +1,7 @@
 (ns hello.main
-  (:require [clojure.data.json :as json]))
+  (:require [clojure.data.json :as json]
+            [medley.core :as medley]))
 
 (defn -main []
-  (json/pprint {"Hello" "World!"}))
+  (json/pprint {"Hello" "World!"})
+  (prn (medley/find-first even? (range 1 10))))
