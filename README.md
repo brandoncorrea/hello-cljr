@@ -2,6 +2,8 @@
 
 A simple "Hello World" program in Clojure CLR
 
+[![Tests](https://github.com/brandoncorrea/hello-cljr/actions/workflows/test.yml/badge.svg)](https://github.com/brandoncorrea/hello-cljr/actions/workflows/test.yml)
+
 ### Install Clojure CLR
 
     # Clojure.Main
@@ -24,7 +26,7 @@ A simple "Hello World" program in Clojure CLR
 
 ### TODO
 
-- [X] run
+- [x] run
 - [x] add dependencies
 - [x] deps.edn
 - [x] aliases
