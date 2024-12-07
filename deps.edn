@@ -4,6 +4,6 @@
            io.github.clojure/clr.data.json {:git/tag "v2.5.0" :git/sha "1c738a1"}
            }
  :aliases {:run  {:main-opts ["-m" "hello.main"]}
-           :test {:extra-deps  {speclj/speclj {:git/url "https://github.com/brandoncorrea/speclj.git" :git/sha "91f1c428d9109975320bf0d0a7360db6391d7788"}}
+           :test {:extra-deps  {speclj/speclj {:git/url "https://github.com/brandoncorrea/speclj.git" :git/sha "326444ad13fdb9b40f524c5133f5decd81e4b70b"}}
                   :extra-paths ["spec/cljr"]}
            :spec {:main-opts ["-m" "speclj.main" "-c"]}}}
