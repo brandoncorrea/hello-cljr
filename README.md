@@ -14,13 +14,21 @@ A simple "Hello World" program in Clojure CLR
 
     cljr -M:run
 
+### Test
+
+    # once
+    cljr -M:test:spec
+
+    # auto
+    cljr -M:test:spec -a
+
 ### TODO
 
 - [X] run
 - [x] add dependencies
 - [x] deps.edn
 - [x] aliases
-- [ ] tests
+- [x] tests
 - [x] rename clj to cljr
 - [ ] add cljs
 - [ ] share cljc

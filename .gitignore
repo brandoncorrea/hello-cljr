@@ -1,6 +1,8 @@
 .lsp/
 .clj-kondo/
+.idea/
 .vscode/
 .cpcache/
 obj/
 bin/
+*.iml

@@ -1,0 +1,10 @@
+(ns hello.main-spec
+  (:require [hello.main :as sut]
+            [speclj.core :refer :all]))
+
+(describe "Main"
+
+  (it "tests something"
+    (should= 1 (sut/one)))
+
+  )
