@@ -1,6 +1,6 @@
 {:paths   ["src/cljr"]
  :deps    {
-           medley/medley                   {:git/url "https://github.com/brandoncorrea/medley.git" :git/sha "d73c457a9b0352520c9538c908c54f6b4accc19b"}
+           medley/medley                   {:git/url "https://github.com/brandoncorrea/medley.git" :git/sha "ebac1a471ae176d28b3f3888111bebbd5bfec918"}
            io.github.clojure/clr.data.json {:git/tag "v2.5.0" :git/sha "1c738a1"}
            }
  :aliases {:run  {:main-opts ["-m" "hello.main"]}
