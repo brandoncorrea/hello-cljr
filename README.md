@@ -10,7 +10,12 @@ A simple "Hello World" program in Clojure CLR
     dotnet tool install --global Clojure.Main --version 1.12.0-alpha10
 
     # Clojure.Cljr
-    dotnet tool install --global Clojure.Cljr --version 0.1.0-alpha4
+    dotnet tool install --global Clojure.Cljr --version 0.1.0-alpha5
+
+### Build Dotnet
+
+    cd src/dotnet/Hello
+    dotnet build
 
 ### Run
 
@@ -34,4 +39,4 @@ A simple "Hello World" program in Clojure CLR
 - [x] rename clj to cljr
 - [ ] add cljs
 - [ ] share cljc
-- [ ] add and use local .NET class
+- [x] add and use local .NET class

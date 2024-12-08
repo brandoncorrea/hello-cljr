@@ -1,9 +1,15 @@
 (ns hello.main
   (:require [clojure.data.json :as json]
+            [hello.newtonsoft :as newtonsoft]
+            [hello.world :as world]
             [medley.core :as medley]))
 
 (defn one [] 1)
 
 (defn -main []
-  (json/pprint {"Hello" "World!"})
-  (prn (medley/find-first even? (range 1 10))))
+  (json/pprint {"Hello" "clojure.data.json"})
+  (prn "medley/find-first:" (medley/find-first even? (range 1 10)))
+  (let [world (world/->World)]
+    (.SayHello world)
+    (println (.SampleSerializedObject world)))
+  (prn "->JObject:" (newtonsoft/->JObject {"J" "Object"})))
